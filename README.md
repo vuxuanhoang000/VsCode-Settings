@@ -7,6 +7,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.tree.indent": 15,
+  "workbench.editor.enablePreview": false,
   "security.workspace.trust.enabled": false,
   "git.allowForcePush": true,
   "explorer.confirmDelete": false,
@@ -26,21 +27,6 @@
     "editor.defaultFormatter": "cweijan.vscode-database-client2"
   },
   "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
-    },
-    "Git Bash": {
-      "source": "Git Bash"
-    },
     "Cmder": {
       "path": "${env:windir}\\System32\\cmd.exe",
       "args": [
@@ -50,14 +36,7 @@
       "icon": "terminal-cmd"
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Cmder",
-  "[blade]": {
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
-  },
-  "php.validate.executablePath": "${env:USERPROFILE}\\laragon\\bin\\php\\php-8.1.10-Win32-vs16-x64\\php.exe",
-  "[php]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-  },
+  "terminal.integrated.defaultProfile.windows": "cmder",
   "[mjml]": {
     "editor.defaultFormatter": "attilabuti.vscode-mjml"
   },
@@ -67,16 +46,6 @@
     "@": "${workspaceFolder}/src"
   },
   "svg.preview.mode": "img",
-  "gitlens.views.commits.avatars": false,
-  "gitlens.views.commits.showBranchComparison": false,
-  "gitlens.views.commits.pullRequests.showForBranches": false,
-  "gitlens.views.commits.pullRequests.enabled": false,
-  "gitlens.views.showRelativeDateMarkers": false,
-  "gitlens.views.branches.avatars": false,
-  "gitlens.views.branches.showBranchComparison": false,
-  "gitlens.views.branches.pullRequests.showForBranches": false,
-  "gitlens.views.branches.pullRequests.enabled": false,
-  "gitlens.views.branches.branches.layout": "list",
   "explorer.copyRelativePathSeparator": "/",
   "workbench.tree.enableStickyScroll": false,
   "editor.stickyScroll.scrollWithEditor": false,
